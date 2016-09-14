@@ -30,14 +30,10 @@ case class CryptoBits(key: PrivateKey) {
   }
 
   def constantTimeEquals(a: String, b: String): Boolean = {
-    if (a.length != b.length) {
-      false
-    } else {
-      var equal = 0
-      for (i <- 0 until a.length) {
-        equal |= a(i) ^ b(i)
-      }
-      equal == 0
+    var equal = 0
+    for (i <- 0 until a.length) {
+      equal |= a(i) ^ b(i)
     }
+    equal == 0
   }
 }
