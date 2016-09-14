@@ -1,6 +1,6 @@
 import com.typesafe.sbt.pgp.PgpKeys
 
-version := "1.0"
+version := "1.1"
 organization := "org.reactormonk"
 name := "cryptobits"
 scalaVersion := "2.11.8"
