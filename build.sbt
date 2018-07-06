@@ -45,5 +45,5 @@ credentials ++= {
   }
 }
 
-ReleaseKeys.versionBump := sbtrelease.Version.Bump.Bugfix
-sbtrelease.ReleasePlugin.ReleaseKeys.publishArtifactsAction := PgpKeys.publishSigned.value
+sbtrelease.ReleasePlugin.autoImport.releaseVersionBump := sbtrelease.Version.Bump.Bugfix
+sbtrelease.ReleasePlugin.autoImport.releasePublishArtifactsAction := PgpKeys.publishSigned.value
