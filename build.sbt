@@ -3,9 +3,9 @@ import com.typesafe.sbt.pgp.PgpKeys
 version := "1.1"
 organization := "org.reactormonk"
 name := "cryptobits"
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.12"
 
-crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0")
+crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.6")
 
 libraryDependencies ++= Seq(
   "org.scalacheck" %% "scalacheck" % "1.13.4" % Test,
