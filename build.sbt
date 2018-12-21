@@ -5,7 +5,7 @@ organization := "org.reactormonk"
 name := "cryptobits"
 scalaVersion := "2.11.12"
 
-crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.6")
+crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.8")
 
 libraryDependencies ++= Seq(
   "org.scalacheck" %% "scalacheck" % "1.13.4" % Test,
