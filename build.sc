@@ -1,6 +1,6 @@
 import mill._, scalalib._, publish._
 
-object cryptobits extends mill.Cross[CryptobitsModule]("2.13.6", "2.13.0", "2.12.8", "2.11.12", "2.10.7")
+object cryptobits extends mill.Cross[CryptobitsModule]("2.13.6", "2.12.8", "2.11.12", "2.10.7")
 
 class CryptobitsModule(val crossScalaVersion: String) extends CrossScalaModule with PublishModule {
 
